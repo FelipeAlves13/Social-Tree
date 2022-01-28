@@ -1,0 +1,100 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--purple);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+.card_perfil{
+    width: 100%;
+    display: block;
+    
+}
+
+.card_perfil img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 148px;
+    padding: 5px;
+    border: 1px solid var(--purple);
+    border-radius: 50%;
+    margin-bottom: 15px;
+   
+}
+
+.card_perfil p{
+    width: 25%;
+    margin: 0 auto;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.outros_sites{
+    width: 100%;
+}
+
+.outros_sites ul{
+    width: 100%;  
+}
+
+.outros_sites ul li{
+    width: 100%;
+    display: block;
+    margin: 0;
+    text-decoration: none;
+}
+
+.outros_sites ul li a{
+    width: 80%;
+    padding: 10px 0;
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--purple);
+    border-radius: 5%;
+    margin:20px auto;
+}
+.redes_sociais{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.redes_sociais nav{
+    width: 100%;
+}
+
+.redes_sociais nav ul{
+    width: 190px;
+    margin: 0 auto;
+}
+
+.redes_sociais nav ul li{
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+}
